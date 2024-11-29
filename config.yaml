@@ -1,7 +1,7 @@
 defaults:
   - hydra: default
   - datamodule: av2
-  - model: model_forecast_multiagent
+  - model: model_forecast
 
 seed: 2333
 monitor: val_loss
